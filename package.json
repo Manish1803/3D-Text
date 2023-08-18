@@ -1,0 +1,20 @@
+{
+    "name": "3dtext",
+    "version": "1.0.0",
+    "description": "3D text",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "deploy": "vercel --prod"
+    },
+    "author": "Manish Patil",
+    "license": "ISC",
+    "dependencies": {
+        "gsap": "^3.12.2",
+        "three": "^0.155.0"
+    },
+    "devDependencies": {
+        "vite": "^4.4.9"
+    }
+}
