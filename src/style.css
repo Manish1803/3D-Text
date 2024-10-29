@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: -1;
+}
+
+.socials {
+  position: fixed;
+  left: 0;
+  bottom: 0.5rem;
+
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  gap: 1rem;
+  color: #d4d4d8;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  z-index: 1;
+}
+
+.socials a i {
+  font-size: 32px;
+  color: #a1a1aa;
+  transition: all 0.3s;
+}
+
+.socials a i:hover {
+  color: #fafafa;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #a1a1aa;
+  text-decoration: none;
+}
